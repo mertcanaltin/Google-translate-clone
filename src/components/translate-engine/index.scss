@@ -1,0 +1,84 @@
+.translate-engine {
+    background-color: white;
+    display: flex;
+
+    &_container {
+        justify-content: center;
+
+        @media only screen and (max-width: 600px) {
+            justify-content: inherit !important;
+        }
+    }
+
+    &_wrapper {
+        display: flex;
+        padding: 5rem;
+
+
+        @media only screen and (max-width: 600px) {
+            display: block !important;
+            padding: 3.5rem;
+            margin-top: 2rem;
+        }
+
+        textarea {
+            padding: 19px;
+            font-size: 1.5rem;
+            font-family: Arial, Helvetica, sans-serif;
+            box-shadow: 0px 1px 1px #d8d8d8;
+            border: 1px solid rgba(0, 0, 0, .12);
+            outline: none;
+            resize: none;
+            height: 13rem;
+            width: 34rem;
+
+            @media only screen and (max-width: 600px) {
+                height: 14rem !important;
+                width: 14rem !important;
+            }
+        }
+
+
+    }
+}
+
+.top-sub-area {
+    position: absolute;
+    height: 53px;
+
+    img {
+        position: absolute;
+        height: 35px;
+        border-radius: 8px;
+        display: block;
+        margin: 18px 26px;
+
+        @media only screen and (max-width: 600px) {
+            left: 5rem !important;
+        }
+        
+    }
+
+    .voice-icon {
+        svg {
+            position: absolute;
+            left: 6rem;
+            margin: 19px;
+            border-radius: 8px;
+            width: 90px;
+            height: 34px;
+            fill: #3377d6;
+            background-color: #e2ebfa;
+            @media only screen and (max-width: 600px) {
+                left: 11rem !important;
+            }
+            
+        }
+    }
+}
+
+#listen-status {
+    position: relative;
+    left: 13rem;
+    padding: 1.3rem;
+}

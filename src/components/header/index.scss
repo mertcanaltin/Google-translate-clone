@@ -1,0 +1,43 @@
+.section-header {
+    background-color: rgba(255,255,255,1);
+
+    &_fix {
+        display: block;
+        left: 0;
+        right: 0;
+        border-bottom: 1px solid rgba(0,0,0,.12);
+        height: 66px;
+    }
+
+    &_logo {
+        svg {
+            position: relative;
+            max-width: 163px;
+            padding: 1.5rem;
+        }
+
+    }
+
+    &_user-area {
+        position: absolute;
+        padding: 1.5rem;
+        top: 0;
+        right: 0;
+        .user-menu-icon {
+            position: relative;
+            float: right;
+            height: 20px;
+            right: 47px;
+            
+        }
+
+        img {
+            float: right;
+            height: 30px;
+            position: relative;
+            border-radius: 20px;
+            right: -25px;
+            top: -5px;
+        }
+    }
+}
