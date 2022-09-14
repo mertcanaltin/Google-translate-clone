@@ -11,8 +11,8 @@ In the project directory, you can run:
 ### Service Backend
 
 
-### `/getAllTranslate` [Heroku Live!](https://appsamurai-backend.herokuapp.com/api/getAllTranslate) :rocket:
-### `/translate` [Heroku Live!](https://appsamurai-backend.herokuapp.com/api/translate) :rocket:
+### `/getAllTranslate` [Heroku Live!](https://appsamurai-backend.herokuapp.com/api/getAllTranslate) get :rocket:
+### `/translate` [Heroku Live!](https://appsamurai-backend.herokuapp.com/api/translate) post :rocket:
 
 
 ### Translate Api
