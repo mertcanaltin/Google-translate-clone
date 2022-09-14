@@ -10,9 +10,10 @@ In the project directory, you can run:
 
 ### Service Backend
 
-[Heroku Live!](https://appsamurai-backend.herokuapp.com/api/) :rocket:
+
+### `/getAllTranslate` [Heroku Live!](https://appsamurai-backend.herokuapp.com/api/getAllTranslate) :rocket:
+### `/translate` [Heroku Live!](https://appsamurai-backend.herokuapp.com/api/translate) :rocket:
 
 
 ### Translate Api
-
 [argosopentech](https://translate.argosopentech.com/translate) :rocket:
