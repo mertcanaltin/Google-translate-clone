@@ -66,7 +66,7 @@ export default function TranslateEngine() {
       <div className='translate-engine translate-engine_container'>
         <div className="wrapper translate-engine_wrapper">
           <div className="one">
-            <textarea id="result" className='textArea_one' placeholder='write...' onChange={(e) => {
+            <textarea id="result" className='textArea_one' placeholder='Enter Text' onChange={(e) => {
               setInputText(e.target.value)
             }}></textarea>
           </div>
