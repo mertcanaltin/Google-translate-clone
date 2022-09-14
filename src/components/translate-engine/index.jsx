@@ -15,7 +15,7 @@ export default function TranslateEngine() {
       translateText(inputText);
     }, 700)
     return () => clearTimeout(delayDebounceFn)
-  })
+  },[inputText])
 
   const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
