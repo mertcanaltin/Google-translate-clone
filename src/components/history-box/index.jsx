@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from 'react'
-
 import { getTranslate } from '../../service/api'
 
 export default function HistoryBook() {
   const [translatesData, setTranslatesData] = useState([]);
-
 
   const fetch = async () => {
     setTimeout(() => {
@@ -25,7 +23,6 @@ export default function HistoryBook() {
       <div className='history-box_title'>
         History
       </div>
-
 
       {
         translatesData.map(element => {
