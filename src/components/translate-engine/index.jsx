@@ -7,7 +7,6 @@ export default function TranslateEngine() {
   let [inputText, setInputText] = useState('');
   let [output, setOutput] = useState([]);
 
-
   
   useEffect(() => {
     setOutput(document.getElementById("result"));
@@ -50,10 +49,6 @@ export default function TranslateEngine() {
     }
   };
 
-
-
-
-
   return (
     <>
       <div className='top-sub-area'>
@@ -65,22 +60,15 @@ export default function TranslateEngine() {
           }}>
             <VoiceIcon />
           </div>
-
-
-
         </div>
       </div>
 
-
       <div className='translate-engine translate-engine_container'>
-
         <div className="wrapper translate-engine_wrapper">
-
           <div className="one">
-            <textarea id="result" className='textArea_one' onChange={(e) => {
+            <textarea id="result" className='textArea_one' placeholder='write...' onChange={(e) => {
               setInputText(e.target.value)
             }}></textarea>
-
           </div>
           <div className="two">
             <textarea id='resultTextId' className='textArea_two' value='' placeholder='Translate' readonly></textarea>
